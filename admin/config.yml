@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: claude/student-clothing-business-6w20F
+  branch: main
 
 media_folder: "src/img/uploads"
 public_folder: "/img/uploads"
