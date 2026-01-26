@@ -1,0 +1,59 @@
+{% extends "layouts/base.njk" %}
+{% set pageTitle = "Clothes With Stories" %}
+{% set tagline = "clothes with stories" %}
+
+{% block content %}
+<div class="container">
+    {% include "partials/header.njk" %}
+
+    <main class="main-content">
+        <section class="hero">
+            <h1>Every Thread Has a Tale</h1>
+            <p class="hero-text">
+                We rescue pre-loved clothes and give them a glow-up.
+                Each piece carries its history – and now it's ready to be part of yours.
+                <span class="highlight">Keep the loop going.</span>
+            </p>
+        </section>
+
+        <section class="garments-grid">
+            <h2>Current Collection</h2>
+            <div class="grid">
+                {% for garment in collections.garments %}
+                <a href="/garments/{{ garment.data.slug }}/" class="garment-card">
+                    <div class="card-image" style="background-image: url('{{ garment.data.heroImage | replace("w=800&h=600", "w=400&h=400") }}')"></div>
+                    <div class="card-content">
+                        <h3>{{ garment.data.title }}</h3>
+                        <p>{{ garment.data.subtitle }}</p>
+                        <span class="status available">Story Ready</span>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>The Loop Promise</h2>
+            <div class="promise-grid">
+                <div class="promise-item">
+                    <span class="promise-icon">🌍</span>
+                    <h3>Planet First</h3>
+                    <p>Every rescued piece = less landfill, less fast fashion</p>
+                </div>
+                <div class="promise-item">
+                    <span class="promise-icon">📖</span>
+                    <h3>Stories Included</h3>
+                    <p>Each item comes with its unique journey documented</p>
+                </div>
+                <div class="promise-item">
+                    <span class="promise-icon">✨</span>
+                    <h3>Glow-Up Guarantee</h3>
+                    <p>Professionally upcycled with fresh embellishments</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    {% include "partials/footer.njk" %}
+</div>
+{% endblock %}

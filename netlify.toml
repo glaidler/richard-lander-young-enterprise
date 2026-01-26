@@ -1,28 +1,22 @@
 # Netlify configuration for Loop - Sustainable Fashion Web App
 
 [build]
-  # No build command needed - it's a static site
-  publish = "."
+  command = "npm run build"
+  publish = "_site"
 
-# Redirect /garments/name to /garments/name.html for cleaner QR code URLs
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirects for clean URLs (garment pages)
 [[redirects]]
-  from = "/garments/neptunes-knit"
-  to = "/garments/neptunes-knit.html"
+  from = "/garments/:slug"
+  to = "/garments/:slug/index.html"
   status = 200
 
+# Admin redirect
 [[redirects]]
-  from = "/garments/rebel-blues"
-  to = "/garments/rebel-blues.html"
-  status = 200
-
-[[redirects]]
-  from = "/garments/time-warp"
-  to = "/garments/time-warp.html"
-  status = 200
-
-[[redirects]]
-  from = "/garments/soul-steps"
-  to = "/garments/soul-steps.html"
+  from = "/admin"
+  to = "/admin/index.html"
   status = 200
 
 # Headers for better performance and security

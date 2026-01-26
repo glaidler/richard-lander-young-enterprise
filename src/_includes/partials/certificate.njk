@@ -1,0 +1,20 @@
+<section class="certificate-section">
+    <h2>Official Documentation</h2>
+    <div class="certificate">
+        <div class="certificate-header">By Royal Decree</div>
+        <div class="certificate-title">Certificate of Provenance</div>
+        <div class="certificate-body">
+            This document hereby certifies that the garment known as
+            <strong>"{{ title }}"</strong> is a genuine piece of
+            rescued fashion, authentically sourced, lovingly restored,
+            and blessed with a story worth telling.<br><br>
+            {{ certificate.body | nl2br | safe }}
+        </div>
+        <div class="certificate-seal">♔</div>
+        <div class="certificate-signature">
+            <div class="signature-line">Charles R</div>
+            <div class="signature-title">{{ certificate.signatureTitle | nl2br | safe }}</div>
+        </div>
+        <div class="certificate-number">Certificate No. {{ certificate.number }}</div>
+    </div>
+</section>

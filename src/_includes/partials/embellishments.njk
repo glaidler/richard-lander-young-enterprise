@@ -1,0 +1,14 @@
+<section class="embellishments-section">
+    <h2>Loop Upgrades</h2>
+    <div class="embellishment-list">
+        {% for item in embellishments %}
+        <div class="embellishment-item">
+            <div class="embellishment-icon">{{ item.emoji }}</div>
+            <div class="embellishment-info">
+                <h4>{{ item.title }}</h4>
+                <p>{{ item.description }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

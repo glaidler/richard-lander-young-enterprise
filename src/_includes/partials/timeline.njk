@@ -1,0 +1,14 @@
+<section class="story-section">
+    <h2>The Journey So Far</h2>
+    <div class="timeline">
+        {% for event in timeline %}
+        <div class="timeline-item{% if loop.first %} current{% endif %}">
+            <div class="timeline-date">{{ event.date }}</div>
+            <div class="timeline-content">
+                <h3>{{ event.title }}</h3>
+                <p>{{ event.narrative }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

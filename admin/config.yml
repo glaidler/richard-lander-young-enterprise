@@ -1,0 +1,143 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "garments"
+    label: "Garments"
+    folder: "src/garments"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      # Basic Info
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Garment name (e.g., Neptune's Knit)"
+
+      - label: "Subtitle"
+        name: "subtitle"
+        widget: "string"
+        hint: "Category description (e.g., Cornish Fisherman's Jumper)"
+
+      - label: "URL Slug"
+        name: "slug"
+        widget: "string"
+        pattern: ['^[a-z0-9-]+$', "Lowercase letters, numbers, and hyphens only"]
+        hint: "Used in the URL (e.g., neptunes-knit)"
+
+      - label: "Hero Image URL"
+        name: "heroImage"
+        widget: "string"
+        hint: "Unsplash URL or uploaded image path"
+
+      - label: "Badge Text"
+        name: "badge"
+        widget: "string"
+        default: "Rescued & Revived"
+
+      # Stats (exactly 3)
+      - label: "Stats"
+        name: "stats"
+        widget: "list"
+        min: 3
+        max: 3
+        summary: "{{fields.label}}: {{fields.value}}"
+        fields:
+          - label: "Value"
+            name: "value"
+            widget: "string"
+            hint: "Can include symbols like ∞ or 10K+"
+          - label: "Label"
+            name: "label"
+            widget: "string"
+
+      # Timeline
+      - label: "Timeline"
+        name: "timeline"
+        widget: "list"
+        min: 3
+        max: 8
+        summary: "{{fields.date}} - {{fields.title}}"
+        hint: "First entry should be the current/Loop HQ entry"
+        fields:
+          - label: "Date/Location"
+            name: "date"
+            widget: "string"
+            hint: "e.g., 2026 - Loop HQ"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Story"
+            name: "narrative"
+            widget: "text"
+
+      # Materials
+      - label: "Materials"
+        name: "materials"
+        widget: "list"
+        min: 3
+        max: 10
+        field:
+          label: "Material"
+          name: "material"
+          widget: "string"
+
+      # Embellishments
+      - label: "Loop Upgrades"
+        name: "embellishments"
+        widget: "list"
+        min: 2
+        max: 6
+        summary: "{{fields.emoji}} {{fields.title}}"
+        fields:
+          - label: "Emoji Icon"
+            name: "emoji"
+            widget: "string"
+            hint: "Single emoji (e.g., 🌊)"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Description"
+            name: "description"
+            widget: "string"
+
+      # Certificate
+      - label: "Certificate"
+        name: "certificate"
+        widget: "object"
+        fields:
+          - label: "Custom Body Text"
+            name: "body"
+            widget: "text"
+            hint: "Additional text after the standard certificate intro (e.g., 'May its next owner wear it with pride...')"
+          - label: "Signature Title"
+            name: "signatureTitle"
+            widget: "string"
+            hint: "Use <br> for line breaks (e.g., 'His Majesty The King<br>Patron of Sustainable Threads')"
+          - label: "Certificate Number"
+            name: "number"
+            widget: "string"
+            pattern: ['^LOOP-[A-Z]+-[0-9]+-[0-9]+$', "Format: LOOP-XX-YYYY-NNN (e.g., LOOP-NK-2026-001)"]
+
+      # CTA Section
+      - label: "Call to Action"
+        name: "cta"
+        widget: "object"
+        fields:
+          - label: "Headline"
+            name: "headline"
+            widget: "string"
+            hint: "Question or call to action (e.g., 'Ready to Write Chapter 5?')"
+          - label: "Description"
+            name: "description"
+            widget: "string"
+          - label: "Button Text"
+            name: "buttonText"
+            widget: "string"
+            default: "Claim This Piece"

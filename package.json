@@ -1,0 +1,13 @@
+{
+  "name": "loop-sustainable-fashion",
+  "version": "1.0.0",
+  "description": "Loop - Sustainable Fashion Web App with CMS",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

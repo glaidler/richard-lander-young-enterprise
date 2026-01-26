@@ -1,0 +1,29 @@
+{% extends "layouts/base.njk" %}
+{% set pageTitle = title %}
+
+{% block content %}
+<div class="container garment-page">
+    {% include "partials/header.njk" %}
+
+    <a href="/" class="back-link">← Back to Collection</a>
+
+    <div class="garment-hero">
+        <img src="{{ heroImage }}" alt="{{ title }} - {{ subtitle }}" class="garment-image">
+        <span class="garment-badge">{{ badge }}</span>
+    </div>
+
+    <div class="garment-title">
+        <h1>{{ title }}</h1>
+        <p class="subtitle">{{ subtitle }}</p>
+    </div>
+
+    {% include "partials/stats.njk" %}
+    {% include "partials/timeline.njk" %}
+    {% include "partials/materials.njk" %}
+    {% include "partials/embellishments.njk" %}
+    {% include "partials/certificate.njk" %}
+    {% include "partials/cta.njk" %}
+
+    {% include "partials/footer.njk" %}
+</div>
+{% endblock %}

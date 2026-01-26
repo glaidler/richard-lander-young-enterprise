@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/garment.njk",
+  "permalink": "garments/{{ slug }}/index.html"
+}
