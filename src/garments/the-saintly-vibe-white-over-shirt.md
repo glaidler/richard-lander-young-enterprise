@@ -3,7 +3,7 @@ title: The Saintly Vibe White Over-shirt
 subtitle: High fashion meets higher frequencies. We took a classic YSL staple
   and gave it a much-needed attitude adjustment.
 slug: ysl-white-shirt-no-bad-vibes
-heroImage: /img/uploads/img_0542-1-.jpeg
+heroImage: /img/uploads/img_0544-1-.jpeg
 badge: THE VIBE CHECK
 stats:
   - value: 100%
