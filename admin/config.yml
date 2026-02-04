@@ -88,11 +88,11 @@ collections:
           name: "material"
           widget: "string"
 
-      # Embellishments
+      # Embellishments (optional - defaults to hard-coded values if not provided)
       - label: "Loop Upgrades"
         name: "embellishments"
         widget: "list"
-        min: 2
+        required: false
         max: 6
         summary: "{{fields.emoji}} {{fields.title}}"
         fields:

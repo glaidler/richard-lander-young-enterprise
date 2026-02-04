@@ -1,7 +1,15 @@
+{% set defaultEmbellishments = [
+    { emoji: "✨", title: "Professional Clean", description: "Deep cleaned and refreshed to pristine condition" },
+    { emoji: "🔧", title: "Expert Repairs", description: "Any wear and tear carefully mended by our skilled team" },
+    { emoji: "🏷️", title: "Loop Tag", description: "Custom woven label with QR code linking to this garment's story" }
+] %}
+
+{% set items = embellishments if embellishments and embellishments.length else defaultEmbellishments %}
+
 <section class="embellishments-section">
     <h2>Loop Upgrades</h2>
     <div class="embellishment-list">
-        {% for item in embellishments %}
+        {% for item in items %}
         <div class="embellishment-item">
             <div class="embellishment-icon">{{ item.emoji }}</div>
             <div class="embellishment-info">
