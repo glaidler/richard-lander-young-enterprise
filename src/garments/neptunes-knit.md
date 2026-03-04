@@ -3,6 +3,7 @@ title: Neptune's Knit
 subtitle: Cornish Fisherman's Jumper
 slug: neptunes-knit
 heroImage: https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=600&fit=crop
+qrCodeUrl: ""
 badge: Rescued & Revived
 stats:
   - value: "47"

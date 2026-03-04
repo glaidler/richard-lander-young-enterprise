@@ -3,6 +3,7 @@ title: Rebel Blues
 subtitle: Designer Jeans
 slug: rebel-blues
 heroImage: https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&h=600&fit=crop
+qrCodeUrl: ""
 badge: Rescued & Revived
 stats:
   - value: "12"

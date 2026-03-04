@@ -3,6 +3,7 @@ title: Soul Steps
 subtitle: Vintage Converse All-Stars
 slug: soul-steps
 heroImage: https://images.unsplash.com/photo-1494496195158-c3becb4f2475?w=800&h=600&fit=crop
+qrCodeUrl: ""
 badge: Rescued & Revived
 stats:
   - value: "8"
