@@ -36,6 +36,12 @@ collections:
         widget: "string"
         hint: "Unsplash URL or uploaded image path"
 
+      - label: "QR Code URL"
+        name: "qrCodeUrl"
+        widget: "string"
+        required: false
+        hint: "URL that the garment's QR code links to (e.g., https://loop-fashion.netlify.app/garments/neptunes-knit/)"
+
       - label: "Badge Text"
         name: "badge"
         widget: "string"

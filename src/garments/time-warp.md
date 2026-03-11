@@ -3,6 +3,7 @@ title: Time Warp
 subtitle: Retro Denim Jacket
 slug: time-warp
 heroImage: https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&h=600&fit=crop
+qrCodeUrl: ""
 badge: Rescued & Revived
 stats:
   - value: "35"
