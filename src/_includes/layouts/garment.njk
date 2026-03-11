@@ -26,4 +26,19 @@
 
     {% include "partials/footer.njk" %}
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script>
+    var qrContainer = document.getElementById("qr-code");
+    if (qrContainer) {
+        new QRCode(qrContainer, {
+            text: window.location.href,
+            width: 150,
+            height: 150,
+            colorDark: "#4A7A94",
+            colorLight: "#FFFFFF",
+            correctLevel: QRCode.CorrectLevel.H
+        });
+    }
+</script>
 {% endblock %}
