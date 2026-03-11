@@ -151,14 +151,12 @@
 
         .qr-code {
             width: 120px;
-            height: auto;
-            max-height: 150px;
             margin: 0 auto 8px;
             background: white;
             padding: 5px;
             border-radius: 8px;
-            display: block;
-            object-fit: contain;
+            display: flex;
+            justify-content: center;
         }
 
         .scan-text {
@@ -262,7 +260,7 @@
                 <p class="garment-type">Cornish Fisherman's Jumper</p>
 
                 <div class="qr-container">
-                    <img src="qr-codes/neptunes-knit.png" alt="QR Code" class="qr-code">
+                    <div class="qr-code" data-url="/garments/neptunes-knit/"></div>
                     <p class="scan-text">Scan for Story</p>
                 </div>
             </div>
@@ -295,7 +293,7 @@
                 <p class="garment-type">Designer Jeans</p>
 
                 <div class="qr-container">
-                    <img src="qr-codes/rebel-blues.png" alt="QR Code" class="qr-code">
+                    <div class="qr-code" data-url="/garments/rebel-blues/"></div>
                     <p class="scan-text">Scan for Story</p>
                 </div>
             </div>
@@ -328,7 +326,7 @@
                 <p class="garment-type">Retro Denim Jacket</p>
 
                 <div class="qr-container">
-                    <img src="qr-codes/time-warp.png" alt="QR Code" class="qr-code">
+                    <div class="qr-code" data-url="/garments/time-warp/"></div>
                     <p class="scan-text">Scan for Story</p>
                 </div>
             </div>
@@ -361,7 +359,7 @@
                 <p class="garment-type">Vintage Converse All-Stars</p>
 
                 <div class="qr-container">
-                    <img src="qr-codes/soul-steps.png" alt="QR Code" class="qr-code">
+                    <div class="qr-code" data-url="/garments/soul-steps/"></div>
                     <p class="scan-text">Scan for Story</p>
                 </div>
             </div>
@@ -372,7 +370,21 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
     <script>
+        // Generate QR codes for each garment label
+        var baseUrl = window.location.origin;
+        document.querySelectorAll('.qr-code[data-url]').forEach(function(el) {
+            new QRCode(el, {
+                text: baseUrl + el.getAttribute('data-url'),
+                width: 110,
+                height: 110,
+                colorDark: "#667eea",
+                colorLight: "#FFFFFF",
+                correctLevel: QRCode.CorrectLevel.H
+            });
+        });
+
         // Print instruction for easy PDF generation
         console.log('To generate PDF: Open this file in a browser and use Print > Save as PDF');
         console.log('Make sure to set margins to "None" and enable "Background graphics"');
