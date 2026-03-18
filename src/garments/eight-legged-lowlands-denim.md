@@ -16,6 +16,16 @@ timeline:
     title: The Rescue
     narrative: We sourced high-grade, discarded heavyweight denim from a vintage
       warehouse in Hackney that was destined for the shredder.
+  - date: Loop Studio
+    title: The Deep clean
+    narrative: To achieve that rich maroon, the denim underwent a low-temperature
+      clean, masking its past life and prepping it for the needle.
+  - date: The Workshop
+    title: The Final Stitch
+    narrative: Our lead artist perfectly place the iron on badge, ensuring the best
+      placement.
 materials:
   - 100% Reclaimed Heavyweight Cotton Denim.
+  - Eco friendly, octopus badge
+embellishments: []
 ---
