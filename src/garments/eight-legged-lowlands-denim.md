@@ -1,5 +1,5 @@
 ---
-title: tentacles of style
+title: The "Tentacles Of Style" trousers
 subtitle: Effortless style from the waist down. The rich maroon hue provides a
   warm alternative to blue, while our resident pocket-octopus adds a touch of
   local character. Perfectly broken-in from the first wear.
