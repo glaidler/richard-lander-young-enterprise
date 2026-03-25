@@ -7,10 +7,10 @@ slug: grey-tartan-badge-decency-premium-tee
 heroImage: /img/uploads/img_0657.jpeg
 badge: LIMITED EDITION
 stats:
-  - value: 2,700 liters
-    label: Water saved
+  - value: 2,700
+    label: Litres Of Water Saved
   - value: 250g
-    label: Textile waste kept out of the ground
+    label: Textile Waste Kept Out Of The Ground
 timeline:
   - date: Charity Shop
     title: The Rescue
