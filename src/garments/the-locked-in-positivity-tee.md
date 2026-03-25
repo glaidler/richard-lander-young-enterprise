@@ -8,7 +8,7 @@ badge: THE VAULT
 stats:
   - value: 100%
     label: Secure positivity rating.
-  - value: "1"
+  - value: "100"
     label: Functional-looking faux-zip for maximum visual interest.
 timeline:
   - date: Hackney
