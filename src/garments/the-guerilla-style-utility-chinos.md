@@ -9,7 +9,7 @@ badge: THE URBAN APE
 stats:
   - value: 100%
     label: Adventure-ready durability.
-  - value: 85%
+  - value: 100%
     label: More likely to lead the pack than follow it.
 timeline:
   - title: Sourced
