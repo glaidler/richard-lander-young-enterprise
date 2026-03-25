@@ -7,9 +7,9 @@ heroImage: /img/uploads/img_0544-1-.jpeg
 badge: THE VIBE CHECK
 stats:
   - value: 100%
-    label: Certified bad-vibe repellent.
+    label: Certified Bad-Vibe Repellent.
   - value: 0%
-    label: Chance of being mistaken for a boring accountant.
+    label: Chance Of Being Mistaken For a Boring Accountant.
 timeline:
   - date: East London
     title: Sourced
