@@ -7,9 +7,9 @@ heroImage: /img/uploads/unnamed.jpg
 badge: THE SHELL-RAISER
 stats:
   - value: 100%
-    label: Protection against boring denim syndrome
-  - value: "42"
-    label: Hidden swirls found in the denim pattern (approximately)
+    label: Protection Against Boring Denim Syndrome
+  - value: 2,800
+    label: Litres Of Water Saved
 timeline:
   - title: Sourced
     date: Portobello Road
