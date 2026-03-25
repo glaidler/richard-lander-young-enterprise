@@ -7,10 +7,10 @@ slug: maroon-denim-octopus-embroidery-casual
 heroImage: /img/uploads/img_0658.jpeg
 badge: SOFT AS THE TIDE
 stats:
-  - value: Carbon Credit
-    label: 14kg of CO2 emissions avoided
-  - value: Water Preservation
-    label: 2,800 liters of water saved
+  - value: 14kg
+    label: CO2 Emissions Avoided
+  - value: 2,800
+    label: Water Saved
 timeline:
   - date: East London
     title: The Rescue
