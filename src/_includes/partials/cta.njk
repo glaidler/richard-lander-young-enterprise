@@ -2,4 +2,11 @@
     <h3>{{ cta.headline }}</h3>
     <p>{{ cta.description }}</p>
     <a href="#" class="cta-button">{{ cta.buttonText }}</a>
+    <div class="cta-qr">
+        <img id="garment-qr" alt="QR Code for {{ title }}" class="qr-code-img">
+        <p class="qr-label">Scan to verify provenance</p>
+    </div>
 </section>
+<script>
+  document.getElementById('garment-qr').src = '/.netlify/functions/qr?url=' + encodeURIComponent(window.location.href);
+</script>

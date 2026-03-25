@@ -4,10 +4,15 @@
   "description": "Loop - Sustainable Fashion Web App with CMS",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve",
-    "start": "eleventy --serve"
+    "serve": "netlify dev",
+    "start": "netlify dev",
+    "serve:eleventy": "eleventy --serve"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "netlify-cli": "^24.5.1"
   }
 }

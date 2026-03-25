@@ -625,6 +625,23 @@ body {
     box-shadow: 0 8px 30px rgba(107, 157, 184, 0.4);
 }
 
+.cta-qr {
+    margin-top: 20px;
+}
+
+.qr-code-img {
+    width: 160px;
+    height: 160px;
+}
+
+.qr-label {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
 /* Embellishments */
 .embellishments-section {
     margin-bottom: 32px;
