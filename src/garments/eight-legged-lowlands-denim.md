@@ -9,8 +9,8 @@ badge: SOFT AS THE TIDE
 stats:
   - value: Carbon Credit
     label: 14kg of CO2 emissions avoided
-  - value: Water Saved
-    label: 2,800 liters of water preserved
+  - value: Water Preservation
+    label: 2,800 liters of water saved
 timeline:
   - date: East London
     title: The Rescue
