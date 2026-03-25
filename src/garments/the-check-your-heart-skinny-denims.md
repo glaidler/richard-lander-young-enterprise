@@ -8,8 +8,8 @@ badge: HEART ON YOUR HIP
 stats:
   - value: 100%
     label: Increase in heart-eye emojis in real life.
-  - value: "2"
-    label: Custom-crafted plaid reinforcements for maximum durability.
+  - value: 1,800
+    label: Litres Of Water Saved
 timeline:
   - title: Sourced
     date: Camden Market
