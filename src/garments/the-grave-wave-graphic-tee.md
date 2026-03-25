@@ -6,8 +6,8 @@ slug: grave-wave
 heroImage: /img/uploads/capture.png
 badge: Rescued & Revived
 stats:
-  - value: 2,700 litres
-    label: water saved
+  - value: 2,700
+    label: Litres Of Water Saved
   - value: "100"
     label: Style Points
 timeline:
