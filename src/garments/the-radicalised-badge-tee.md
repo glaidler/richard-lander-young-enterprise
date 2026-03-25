@@ -15,6 +15,10 @@ timeline:
   - date: Charity Shop
     title: The Rescue
     narrative: Sourced from a donation pile, good as new but forgotten.
+  - title: Reimagioned
+    date: The Loop Studio
+    narrative: Hand-ironed with reclaimed tartan offcuts and bold typography to give
+      it a voice.
 materials:
   - Heather Grey Cotton.
   - Iron on patch
