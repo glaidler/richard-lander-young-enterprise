@@ -5,10 +5,10 @@ slug: dark-knight
 heroImage: /img/uploads/img_0656.jpeg
 badge: Fixed and re armoured
 stats:
-  - value: 10 more years
-    label: high-altitude or urban use.
+  - value: "10"
+    label: Years Left Of Life
   - value: 1.4kg
-    label: Technical synthetic fabric kept out of the incinerator.
+    label: Synthetic Fabric Kept Out Of The Incinerator.
 timeline:
   - title: The rescue
     date: Charity Shop
