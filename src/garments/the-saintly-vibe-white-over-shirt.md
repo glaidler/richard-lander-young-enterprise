@@ -11,7 +11,7 @@ stats:
   - value: 0%
     label: Chance Of Being Mistaken For a Boring Accountant.
   - label: CO2 Emissions Avoided
-    value: "2"
+    value: 12kg
 timeline:
   - date: East London
     title: Sourced
