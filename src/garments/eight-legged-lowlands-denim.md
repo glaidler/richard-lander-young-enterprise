@@ -11,6 +11,8 @@ stats:
     label: CO2 Emissions Avoided
   - value: 2,800
     label: Water Saved
+  - label: Number Of Legs
+    value: "8"
 timeline:
   - date: East London
     title: The Rescue
