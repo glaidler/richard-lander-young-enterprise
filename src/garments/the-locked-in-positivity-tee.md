@@ -10,6 +10,8 @@ stats:
     label: Secure positivity rating.
   - value: "100"
     label: Functional-looking faux-zip for maximum visual interest.
+  - label: Litres Of Water saved
+    value: 2,500
 timeline:
   - date: Hackney
     title: Sourced
