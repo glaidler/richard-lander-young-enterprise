@@ -11,6 +11,8 @@ stats:
     label: Water Saved
   - value: 25KG
     label: CO2 Emissions Avoided
+  - label: Deep Blue Style
+    value: 100%
 timeline:
   - title: The Rescue
     date: Charity Shop
