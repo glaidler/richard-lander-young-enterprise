@@ -10,6 +10,8 @@ stats:
     label: Guaranteed mood elevator for you and anyone who reads your shirt.
   - value: 360°
     label: Coverage of wholesome, optimistic energy.
+  - value: 2,800
+    label: Litres Of Water Saved
 timeline:
   - date: Notting Hill
     title: "Sourced "
