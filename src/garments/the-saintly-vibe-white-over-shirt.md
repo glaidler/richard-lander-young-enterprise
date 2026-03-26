@@ -10,6 +10,8 @@ stats:
     label: Certified Bad-Vibe Repellent.
   - value: 0%
     label: Chance Of Being Mistaken For a Boring Accountant.
+  - label: CO2 Emissions Avoided
+    value: "2"
 timeline:
   - date: East London
     title: Sourced
