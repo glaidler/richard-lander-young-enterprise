@@ -9,6 +9,8 @@ stats:
     label: Years Left Of Life
   - value: 1.4kg
     label: Synthetic Fabric Kept Out Of The Incinerator.
+  - label: Style Points
+    value: "100"
 timeline:
   - title: The rescue
     date: Charity Shop
