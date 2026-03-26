@@ -1,5 +1,5 @@
 ---
-title: The Good Energy White Over-shirt
+title: The Sunshine Saint Laurent
 subtitle: High fashion meets higher frequencies. We took a classic YSL staple
   and gave it a much-needed attitude adjustment.
 slug: ysl-white-shirt-no-bad-vibes
