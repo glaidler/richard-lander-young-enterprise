@@ -11,6 +11,8 @@ stats:
     label: Litres Of Water Saved
   - value: 250g
     label: Textile Waste Kept Out Of The Ground
+  - label: Radical Style
+    value: 100%
 timeline:
   - date: Charity Shop
     title: The Rescue
